@@ -2,21 +2,23 @@
 
 # a = int(input('Введите число: '))
 # if a == 6 or a == 7:
-#     print (' Это выходной')
-# else:
+#     print ('Это выходной')
+# elif 1 <= a <= 5:
 #     print ('Это не выходной')
+# else:
+#     print ('Не корректное значение')
 
 
 
 # Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 
-# import math
-# Ax = int(input("Введите координату Ax "))
-# Ay = int(input("Введите координату Ay "))
-# Bx = int(input("Введите координату Bx "))
-# By = int(input("Введите координату By "))
-# distance = math.sqrt((Ax - Bx) * (Ax - Bx) + (Ay - By) * (Ay - By))
-# print(f"({Ax}, {Ay}); ({Bx}, {By}) -> {round(distance, 2)}")
+import math
+Ax = int(input("Введите координату Ax "))
+Ay = int(input("Введите координату Ay "))
+Bx = int(input("Введите координату Bx "))
+By = int(input("Введите координату By "))
+distance = math.sqrt((Ax - Bx) * (Ax - Bx) + (Ay - By) * (Ay - By))
+print(f"({Ax}, {Ay}); ({Bx}, {By}) -> {round(distance, 2)}")
 
 
 
@@ -57,7 +59,7 @@
 
 # Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
-for x in range(0,2):
-    for y in range(0,2):
-        for z in range(0,2):
-            print((not(x or y or z)) == (not x and not y and not z))
+# for x in range(0,2):
+#     for y in range(0,2):
+#         for z in range(0,2):
+#             print((not(x or y or z)) == (not x and not y and not z))
